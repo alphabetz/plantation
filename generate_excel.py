@@ -40,9 +40,9 @@ def generate_tree():
     quad = 'A'
     tree_no = 0
 
-    for lot in range(1, 74): 
+    for lot in range(1, 11): 
         while(quad < 'E'):
-            new_tree = ['TH', 5, lot, quad, tree_no + 1 , 14, '10/2/2019', '']
+            new_tree = ['TH', 1, lot, quad, tree_no + 1 , 14, '10/2/2019', '']
             first_1000.append(new_tree)
             tree_no += 1
             if tree_no == 25:
